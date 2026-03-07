@@ -147,7 +147,9 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
       <div className="flex items-center justify-between pt-4 border-t border-border/30">
         <p className="text-sm font-medium text-primary/80">{project.result}</p>
         <motion.a
-          href="#"
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-muted-foreground hover:text-primary transition-colors"
           whileHover={{ scale: 1.1 }}
         >
