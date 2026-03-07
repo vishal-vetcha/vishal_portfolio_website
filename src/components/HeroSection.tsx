@@ -100,7 +100,7 @@ const HeroSection = () => {
             animate={{ opacity: 1, y: 0 }}
             transition={{ delay: 0.5, duration: 0.8 }}
           >
-            Engineering Intelligence Across Biology,{" "}
+            Engineering Intelligence Across Artificial Intelligence, Data Science, Software Systems, Biology,{" "}
             <span className="neon-text">Earth Systems</span>, and Human Interfaces.
           </motion.h2>
 

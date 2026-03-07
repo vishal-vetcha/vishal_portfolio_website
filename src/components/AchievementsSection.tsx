@@ -16,6 +16,12 @@ const achievements = [
     description: "Built FreshConnect, a sustainable agriculture marketplace, reaching the national grand finale.",
   },
   {
+    icon: Award,
+    title: "Entrepreneurship Award",
+    subtitle: "Venture Development Centre — GITAM IdeaBlast 2024",
+    description: "Finalist (Top 10) at GITAM IdeaBlast 2024, recognized for innovative venture development.",
+  },
+  {
     icon: BookOpen,
     title: "AI Research",
     subtitle: "Novel Architecture Under Publication",
