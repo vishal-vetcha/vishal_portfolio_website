@@ -22,6 +22,7 @@ const projects = [
   {
     title: "Brain Tumor MRI Classification",
     tag: "Medical AI",
+    github: "https://github.com/vishal-vetcha/brain-tumor-classifier",
     description:
       "Deep learning pipeline detecting and classifying brain tumors from MRI scans into glioma, meningioma, pituitary tumor, and no tumor categories. Novel architecture currently under research publication.",
     details: [
