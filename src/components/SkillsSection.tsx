@@ -3,41 +3,46 @@ import { useRef } from "react";
 
 const skillCategories = [
   {
-    title: "Machine Learning",
+    title: "Programming Languages",
     color: "from-primary to-neon-purple",
-    skills: ["PyTorch", "TensorFlow", "Scikit-Learn", "XGBoost"],
+    skills: ["C", "Python", "Java", "Dart"],
   },
   {
-    title: "Deep Learning",
+    title: "Data Structures & Algorithms",
     color: "from-neon-purple to-accent",
-    skills: ["Transformers", "Diffusion Models", "CNNs", "GANs"],
+    skills: ["Arrays", "Trees", "Graphs", "Dynamic Programming"],
   },
   {
-    title: "Computer Vision",
+    title: "AI / ML",
     color: "from-neon-cyan to-primary",
-    skills: ["OpenCV", "MediaPipe", "YOLOv8", "Image Segmentation"],
+    skills: ["TensorFlow", "PyTorch", "Data Analysis", "Deep Neural Networks"],
   },
   {
-    title: "Scientific AI",
+    title: "App Development",
     color: "from-primary to-neon-cyan",
-    skills: ["Molecular Modeling", "Geospatial AI", "Signal Processing", "CUDA"],
+    skills: ["Flutter", "Android Studio", "Firebase"],
   },
   {
-    title: "Full Stack",
+    title: "DBMS",
     color: "from-accent to-neon-purple",
-    skills: ["React", "Node.js", "Flutter", "Firebase"],
+    skills: ["MySQL", "SQLite"],
   },
   {
-    title: "Infrastructure",
+    title: "IoT",
     color: "from-neon-purple to-primary",
-    skills: ["Docker", "REST APIs", "Data Pipelines", "Cloud"],
+    skills: ["ROS2", "OpenCV", "Sensor Integration"],
+  },
+  {
+    title: "Soft Skills",
+    color: "from-primary to-accent",
+    skills: ["Leadership", "Teamwork", "Problem-solving"],
   },
 ];
 
 const coreTools = [
-  "Python", "PyTorch", "TensorFlow", "OpenCV", "MediaPipe", "Scikit-Learn",
-  "YOLOv8", "Docker", "Firebase", "Flutter", "React", "Node.js",
-  "NumPy", "Pandas", "REST APIs", "CUDA",
+  "C", "Python", "Java", "Dart", "TensorFlow", "PyTorch", "OpenCV",
+  "Flutter", "Android Studio", "Firebase", "MySQL", "SQLite",
+  "ROS2", "NumPy", "Pandas", "Docker", "React", "Node.js",
 ];
 
 const SkillsSection = () => {
