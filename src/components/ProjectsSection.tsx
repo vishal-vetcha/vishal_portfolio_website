@@ -6,6 +6,7 @@ const projects = [
   {
     title: "Stanford RNA 3D Folding — Kaggle Bronze Medal",
     tag: "Biomolecular AI",
+    github: "https://github.com/vishal-vetcha/rna_folding_project",
     description:
       "Deep learning system predicting 3D RNA molecular structures using diffusion-based generative modeling and transformer architectures. Leverages the Boltz-1 biomolecular foundation model, achieving AlphaFold-level molecular accuracy.",
     details: [
