@@ -52,6 +52,7 @@ const projects = [
   {
     title: "Solar Rooftop Detection Pipeline",
     tag: "Climate AI",
+    github: "https://github.com/vishal-vetcha/solar-rooftop-pv-pipeline",
     description:
       "Production-grade AI pipeline detecting solar photovoltaic installations from satellite imagery using YOLOv8 segmentation. Estimates surface area and generates audit-ready outputs.",
     details: [
