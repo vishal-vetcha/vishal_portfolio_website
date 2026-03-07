@@ -82,6 +82,7 @@ const projects = [
   {
     title: "Oceanic Hazard Intelligence Platform",
     tag: "Disaster AI",
+    github: "https://github.com/jyotsna-beep/oceanic-hazard-platform",
     description:
       "Full-stack disaster intelligence platform detecting oceanic hazards using ML and real-time environmental data from weather APIs, ocean sensors, satellite imagery, and social media.",
     details: [
