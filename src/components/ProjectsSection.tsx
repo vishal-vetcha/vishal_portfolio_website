@@ -6,6 +6,7 @@ const projects = [
   {
     title: "Stanford RNA 3D Folding — Kaggle Bronze Medal",
     tag: "Biomolecular AI",
+    github: "https://github.com/vishal-vetcha/rna_folding_project",
     description:
       "Deep learning system predicting 3D RNA molecular structures using diffusion-based generative modeling and transformer architectures. Leverages the Boltz-1 biomolecular foundation model, achieving AlphaFold-level molecular accuracy.",
     details: [
@@ -21,6 +22,7 @@ const projects = [
   {
     title: "Brain Tumor MRI Classification",
     tag: "Medical AI",
+    github: "https://github.com/vishal-vetcha/brain-tumor-classifier",
     description:
       "Deep learning pipeline detecting and classifying brain tumors from MRI scans into glioma, meningioma, pituitary tumor, and no tumor categories. Novel architecture currently under research publication.",
     details: [
@@ -35,6 +37,7 @@ const projects = [
   {
     title: "DynamoBox-KI — AI Gesture Controller",
     tag: "Computer Vision",
+    github: "https://github.com/vishal-vetcha/dynamobox-ki",
     description:
       "Computer vision input system controlling fighting games via real-time hand gestures. Processes 21 hand landmarks per frame using MediaPipe skeletal tracking with Euclidean geometry-based gesture recognition.",
     details: [
@@ -49,6 +52,7 @@ const projects = [
   {
     title: "Solar Rooftop Detection Pipeline",
     tag: "Climate AI",
+    github: "https://github.com/vishal-vetcha/solar-rooftop-pv-pipeline",
     description:
       "Production-grade AI pipeline detecting solar photovoltaic installations from satellite imagery using YOLOv8 segmentation. Estimates surface area and generates audit-ready outputs.",
     details: [
@@ -63,6 +67,7 @@ const projects = [
   {
     title: "FreshConnect — Agriculture Marketplace",
     tag: "Sustainable Tech",
+    github: "https://github.com/vishal-vetcha/FreshConnect_SIH_GrandFinale",
     description:
       "Mobile ecosystem connecting farmers directly with consumers while enabling agricultural waste recycling for renewable energy generation. Eliminates middlemen in crop sales.",
     details: [
@@ -77,6 +82,7 @@ const projects = [
   {
     title: "Oceanic Hazard Intelligence Platform",
     tag: "Disaster AI",
+    github: "https://github.com/jyotsna-beep/oceanic-hazard-platform",
     description:
       "Full-stack disaster intelligence platform detecting oceanic hazards using ML and real-time environmental data from weather APIs, ocean sensors, satellite imagery, and social media.",
     details: [
@@ -141,7 +147,9 @@ const ProjectCard = ({ project, index }: { project: typeof projects[0]; index: n
       <div className="flex items-center justify-between pt-4 border-t border-border/30">
         <p className="text-sm font-medium text-primary/80">{project.result}</p>
         <motion.a
-          href="#"
+          href={project.github}
+          target="_blank"
+          rel="noopener noreferrer"
           className="text-muted-foreground hover:text-primary transition-colors"
           whileHover={{ scale: 1.1 }}
         >

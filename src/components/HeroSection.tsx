@@ -142,9 +142,9 @@ const HeroSection = () => {
             transition={{ delay: 1.1 }}
           >
             {[
-              { icon: Github, href: "#", label: "GitHub" },
-              { icon: Linkedin, href: "#", label: "LinkedIn" },
-              { icon: Mail, href: "mailto:vishal@example.com", label: "Email" },
+              { icon: Github, href: "https://github.com/vishal-vetcha", label: "GitHub" },
+              { icon: Linkedin, href: "https://www.linkedin.com/in/vishal-vetcha-97649a293", label: "LinkedIn" },
+              { icon: Mail, href: "mailto:vishal8451973398@gmail.com", label: "Email" },
             ].map(({ icon: Icon, href, label }) => (
               <motion.a
                 key={label}

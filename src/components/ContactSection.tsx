@@ -7,9 +7,9 @@ const ContactSection = () => {
   const isInView = useInView(ref, { once: true, margin: "-100px" });
 
   const links = [
-    { icon: Github, label: "GitHub", href: "#", desc: "View repositories" },
-    { icon: Linkedin, label: "LinkedIn", href: "#", desc: "Connect professionally" },
-    { icon: Mail, label: "Email", href: "mailto:vishal@example.com", desc: "Get in touch" },
+    { icon: Github, label: "GitHub", href: "https://github.com/vishal-vetcha", desc: "View repositories" },
+    { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/vishal-vetcha-97649a293", desc: "Connect professionally" },
+    { icon: Mail, label: "Email", href: "mailto:vishal8451973398@gmail.com", desc: "Get in touch" },
     { icon: FileDown, label: "Resume", href: "#", desc: "Download CV" },
   ];
 
