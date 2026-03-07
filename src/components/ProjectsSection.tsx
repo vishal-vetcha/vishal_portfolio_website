@@ -37,6 +37,7 @@ const projects = [
   {
     title: "DynamoBox-KI — AI Gesture Controller",
     tag: "Computer Vision",
+    github: "https://github.com/vishal-vetcha/dynamobox-ki",
     description:
       "Computer vision input system controlling fighting games via real-time hand gestures. Processes 21 hand landmarks per frame using MediaPipe skeletal tracking with Euclidean geometry-based gesture recognition.",
     details: [
