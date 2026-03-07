@@ -67,6 +67,7 @@ const projects = [
   {
     title: "FreshConnect — Agriculture Marketplace",
     tag: "Sustainable Tech",
+    github: "https://github.com/vishal-vetcha/FreshConnect_SIH_GrandFinale",
     description:
       "Mobile ecosystem connecting farmers directly with consumers while enabling agricultural waste recycling for renewable energy generation. Eliminates middlemen in crop sales.",
     details: [
