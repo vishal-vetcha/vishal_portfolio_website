@@ -10,7 +10,7 @@ const ContactSection = () => {
     { icon: Github, label: "GitHub", href: "https://github.com/vishal-vetcha", desc: "View repositories" },
     { icon: Linkedin, label: "LinkedIn", href: "https://www.linkedin.com/in/vishal-vetcha-97649a293", desc: "Connect professionally" },
     { icon: Mail, label: "Email", href: "mailto:vishal8451973398@gmail.com", desc: "Get in touch" },
-    { icon: FileDown, label: "Resume", href: "/vishal_resume", desc: "Download" },
+    { icon: FileDown, label: "Resume", href: "/vishal_resume.pdf", desc: "Download" },
   ];
 
   return (
