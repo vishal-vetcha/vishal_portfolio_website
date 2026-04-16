@@ -25,13 +25,13 @@ const achievements = [
     icon: BookOpen,
     title: "Research Publication",
     subtitle: "Pathology-Adaptive Multi-View Attention for Unified Brain Imaging Analysis",
-    description: "Developing a novel neural architecture for medical imaging classification, currently under research review.",
+    description: "International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT), Springer Proceedings, Scopus Indexed. Will be presented at National Institute of Technology Warangal, India, 2026.",
   },
   {
     icon: Rocket,
     title: "Large-Scale AI Systems",
     subtitle: "Healthcare · Climate · Gaming · Energy",
-    description: "International Conference on Frontiers in Advanced Computing and Emerging Intelligent Technologies (FACEIT), Springer Proceedings, Scopus Indexed. Will be presented at National Institute of Technology Warangal, India, 2026.",
+    description: "Built and deployed production AI systems spanning multiple domains and real-world applications.",
   },
 ];
 
