@@ -124,6 +124,7 @@ const HeroSection = () => {
               "🥉 Kaggle Bronze — Stanford RNA 3D Folding",
               "🏆 SIH Grand Finalist — Top 5 National",
               "🧠 AI Systems: Healthcare · Climate · Gaming",
+              "📚 Research Publication: International Conference . (FACEIT) . Springer Proceedings . Scopus Indexed . NIT Warangal",
             ].map((badge, i) => (
               <span
                 key={i}
