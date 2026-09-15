@@ -121,8 +121,10 @@ const HeroSection = () => {
             transition={{ delay: 0.9 }}
           >
             {[
+              "Amazon ML Summer School 2026",
+              "Munich International Summer University, LMU Munich, Germany - Top 20 Cohort",
               "🥉 Kaggle Bronze — Stanford RNA 3D Folding",
-              "🏆 SIH Grand Finalist — Top 5 National",
+              "🏆 SIH Grand Finalist — Top 5 National Level",
               "🧠 AI Systems: Healthcare · Climate · Gaming",
               "📚 Research Publication: International Conference . (FACEIT) . Springer Proceedings . Scopus Indexed . NIT Warangal",
             ].map((badge, i) => (
