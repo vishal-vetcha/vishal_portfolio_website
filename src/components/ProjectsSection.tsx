@@ -4,6 +4,31 @@ import { ExternalLink, Github } from "lucide-react";
 
 const projects = [
   {
+  title: "MicroHawk – Edge-Deployable Agentic AI Drone System",
+  tag: "Autonomous Agentic AI",
+  github: "https://github.com/vishal-vetcha/MicroHawk",
+  description:
+    "Architected an edge-compatible autonomous drone platform integrating a local 3.8B Qwen2.5-VL agent, real-time RGB vision, voice control, and deterministic failsafes. Features a 50 Hz C# flight controller paired with a 10 Hz telemetry pipeline over persistent WebSocket connections, bridging Python intelligence with Unity physics simulation.",
+  details: [
+    "Integrated local 3.8B Qwen2.5-VL for vision-language-action spatial decision-making",
+    "Engineered 50 Hz C# flight controller with 10 Hz telemetry and multi-layer failsafes",
+    "Built persistent bidirectional WebSocket pipeline across 8 FastAPI endpoints",
+    "Automated structural inspection and patrol with visual dwell detection and live replanning",
+    "Validated entire autonomy stack using 86 automated Python and Unity integration tests",
+  ],
+  tech: [
+    "Python",
+    "FastAPI",
+    "C#",
+    "Unity Engine",
+    "Qwen2.5-VL",
+    "WebSockets",
+    "Pydantic",
+    "OpenCV",
+  ],
+  result: "Validated autonomous inspection & breach response with 100% LLM safety boundary enforcement",
+},
+  {
     title: "Stanford RNA 3D Folding — Kaggle Bronze Medal",
     tag: "Biomolecular AI",
     github: "https://github.com/vishal-vetcha/rna_folding_project",
